@@ -25,6 +25,11 @@ public class MyClass {
         }
         return median;
         }
+		public static int find_min_prime(int arr[])
+		{
+        Arrays.sort(arr);
+        return arr[0];
+		}
         ///////////////////////////////////////////////////////////////
 	public static void main(String[] args) 
 	{
